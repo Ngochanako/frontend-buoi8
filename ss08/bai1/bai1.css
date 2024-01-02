@@ -1,0 +1,27 @@
+.container{
+    width: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+    height: 200px;
+    background-image: url(anh.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.views{
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    top: 180px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding: 10px;
+}

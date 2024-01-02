@@ -1,0 +1,19 @@
+
+.container{
+    margin: 50px;
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: 0.05s;
+   
+}
+.text{
+    color: white;
+}
+.container:hover{
+    border-radius: 0%;
+}

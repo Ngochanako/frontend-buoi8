@@ -1,0 +1,26 @@
+
+.container{
+    margin: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.text{
+    color: white;
+}
+.container:hover{
+    animation: rotate 2s linear ;
+}
+@keyframes rotate{
+    50%{
+        rotate: -30deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}

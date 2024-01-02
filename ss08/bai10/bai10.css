@@ -1,0 +1,22 @@
+
+.body{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(210, 210, 188);
+}
+.container{
+    width: 400px;
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: 0.05s;
+   
+}
+.text{
+    color: white;
+}
+.container:hover{
+    transform: scale(0.8);
+}
